@@ -22,14 +22,14 @@
 
 
 
-var API            = "https://miningcore-api.mattsnoby.com/api/";
+var API            = "http://miningcore-api.havek.net/api/";
 // API correction if not ends with /
 if (API.substring(API.length-1) != "/")
 {
 	API = API + "/";
 	console.log('Corrected API, does not end with / -> New API : ', API);
 } 
-var stratumAddress = "ergo.mattsnoby.com:3056";
+var stratumAddress = "pdn.havek.net:4444";
 
 
 
